@@ -34,9 +34,13 @@ header img {
 }
 
 nav {
+    padding: 1%;
+    margin-bottom: 1%;
+    /* removed for mobile viewport:
     width: 70%;
     float: right;
     margin: 5em 3em 0 0;
+    */
 }
 
 main {
