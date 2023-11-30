@@ -43,6 +43,12 @@ nav {
     */
 }
 
+nav ul {
+    list-style-type:none; /* this is to remove the bullet */
+    /* removed margin: 0; */
+    text-align: center; /* changed to center from right */
+}
+
 main {
     clear: left;
     background-color: #fff;
@@ -95,11 +101,6 @@ main {
 
 .map {
     border: 8px solid #000;
-}
-nav ul {
-    list-style-type:none; /* this is to remove the bullet */
-    margin: 0;
-    text-align: right;
 }
 
 nav li {
