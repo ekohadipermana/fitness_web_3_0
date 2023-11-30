@@ -49,6 +49,20 @@ nav ul {
     text-align: center; /* changed to center from right */
 }
 
+nav li {
+    /* removed for mobile: 
+    display: inline-block; /* inline block will show the items horizontally
+    instead of vertically */ 
+    font-size: 1.5em; /* o 1.75em means
+    the font size of the list item text is 1.75 times
+    larger than the default font size of the browser */
+    font-family: Verdana, Arial, sans-serif;
+    /* removed for mobile: 
+    font-weight: bold;
+    */
+    border-top: 1px solid #fff;
+}
+
 main {
     clear: left;
     background-color: #fff;
@@ -103,15 +117,6 @@ main {
     border: 8px solid #000;
 }
 
-nav li {
-    display: inline-block; /* inline block will show the items horizontally
-    instead of vertically */
-    font-size: 1.5em; /* o 1.75em means
-    the font size of the list item text is 1.75 times
-    larger than the default font size of the browser */
-    font-family: Verdana, Arial, sans-serif;
-    font-weight: bold;
-}
 
 nav li a {
     display:block;
