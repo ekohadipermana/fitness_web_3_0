@@ -14,10 +14,23 @@ img {
 }
 
 /* Style rules for mobile viewport */
+/* Begin style rules for mobile viewport */
+/* Style rule for header */
 
 header {
+    position: -webkit-sticky; /* this is for safari compatibility */
+    position: sticky; /* this is for other browsers */
+    top: 0;
+    background-color: #000;
+    height: 190px;
+    /* removed:
     width: 25%;
-    float: left;
+    float: left; */
+}
+
+header img {
+    margin: 0 auto; /* 0 for top and bottom, auto for left and right, 
+    the result is centering the content*/
 }
 
 nav {
