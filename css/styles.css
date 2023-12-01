@@ -64,6 +64,9 @@ nav li {
     font-family: 'Francois One', sans-serif;
 }
 
+nav li:first-child {
+    border-top: none;
+}
 main {
     clear: left;
     background-color: #fff;
