@@ -67,12 +67,22 @@ nav li {
 nav li:first-child {
     border-top: none;
 }
+
 main {
     clear: left;
     background-color: #fff;
     padding: 2%;
     font-size: 1.25em;
     font-family: 'Roboto Slab', serif;
+}
+
+.tel-link {
+    background-color: #404040;
+    padding: 2%;
+    margin: 0 auto;
+    width: 80%;
+    text-align: center;
+    border-radius: 5px;
 }
 
 .action {
