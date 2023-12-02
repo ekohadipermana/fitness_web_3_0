@@ -133,6 +133,11 @@ nav li a {
     text-decoration: none; /* to remove the underline */
 }
 
+/* Show mobile class, hide tablet-desktop class */
+.mobile {
+    display: block;
+}
+
 footer p {
     font-size: 0.75em;
     text-align: center;
