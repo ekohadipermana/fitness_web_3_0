@@ -92,6 +92,10 @@ main {
     display: block;
 }
 
+.hours {
+    margin-left: 10%;
+}
+
 .action {
     font-size: 1.35em;
     color: #666600;
