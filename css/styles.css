@@ -69,10 +69,11 @@ nav li:first-child {
 }
 
 main {
-    clear: left;
+    /* removed:
+    clear: left; */
     background-color: #fff;
     padding: 2%;
-    font-size: 1.25em;
+    font-size: 1.15em;
     font-family: 'Roboto Slab', serif;
 }
 
