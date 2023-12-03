@@ -179,7 +179,14 @@ footer p a {
         display: none;
     }
 
+    /* Tablet viewport: Style rule for header */
+    header {
+        position: static;
+        padding-bottom: 2%;
+    }
 }
+
+
 
 
 /*
