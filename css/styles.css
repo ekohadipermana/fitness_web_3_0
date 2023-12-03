@@ -205,6 +205,22 @@ footer p a {
     main ul {
         margin: 0 0 4% 10%;
     }
+    #exercises {
+        clear: left;
+        border-top: 1px solid #000;
+        border-bottom: 1px solid #000;
+        background-color: #f2f2f2;
+        padding: 1% 2%;
+    }
+    
+    #exercises dt {
+        font-weight: bold;
+    }
+    
+    #exercises dd {
+        padding: 0.5% 1% 2% 0;
+    }
+    
 }
 
 
@@ -212,21 +228,6 @@ footer p a {
 
 
 /*
-#exercises {
-    clear: left;
-    border-top: 1px solid #000;
-    border-bottom: 1px solid #000;
-    background-color: #f2f2f2;
-    padding: 1% 2%;
-}
-
-#exercises dt {
-    font-weight: bold;
-}
-
-#exercises dd {
-    padding: 0.5% 1% 2% 0;
-}
 */
 
 /* page 183 */
