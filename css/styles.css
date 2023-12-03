@@ -191,6 +191,17 @@ footer p a {
         display: inline-block;
         border-right: 1px solid #fff;
     }
+
+    nav li:last-child {
+        border-right: none;
+
+    }
+
+    nav li a {
+        padding: 0.1em 0.75em;
+    }
+
+
 }
 
 
