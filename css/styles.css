@@ -220,6 +220,10 @@ footer p a {
     #exercises dd {
         padding: 0.5% 1% 2% 0;
     }
+
+    .tel-sum {
+        font-size: 1.25em;
+    }
     
 }
 
