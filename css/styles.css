@@ -224,7 +224,11 @@ footer p a {
     .tel-sum {
         font-size: 1.25em;
     }
-    
+
+    .map {
+        width: 600px;
+        height: 450px;
+    }
 }
 
 
