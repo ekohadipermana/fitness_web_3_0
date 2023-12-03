@@ -184,7 +184,15 @@ footer p a {
         position: static;
         padding-bottom: 2%;
     }
+
+    /* Tablet Viewport: Style rules for nav area */
+    nav li {
+        border-top: none;
+        display: inline-block;
+        border-right: 1px solid #fff;
+    }
 }
+
 
 
 
