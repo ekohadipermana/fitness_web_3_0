@@ -168,7 +168,7 @@ footer p a {
 }
 
 /* Media query for Tablet Viewport */
-@media screen and (min-width: 630px) {
+@media screen and (min-width: 630px), print {
 
     /* Tablet Viewport: Show tablet-desktop class, hide mobile class */
     .tablet-desktop {
@@ -232,7 +232,7 @@ footer p a {
 }
 
 /* Media query for desktop viewport */
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 769px), print {
     /* Desktop Viewport: Style rule for header */
     header {
         width: 25%;
@@ -284,6 +284,15 @@ Desktop Viewports */
     #container {
         width: 1920px;
         margin: 0 auto;
+    }
+}
+
+/* Media query for print */
+@media print {
+
+    body {
+        background-color: #fff;
+        color: #000;
     }
 }
 
