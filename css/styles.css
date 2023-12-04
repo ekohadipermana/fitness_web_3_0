@@ -249,6 +249,16 @@ footer p a {
     nav ul {
         text-align: right;
     }
+
+    nav li {
+        border: none;
+    }
+
+    nav li a {
+        padding: 0.5em 1em;
+    }
+
+
 }
 
 /*
