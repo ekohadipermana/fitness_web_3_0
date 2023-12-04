@@ -275,8 +275,16 @@ footer p a {
     #exercises {
         clear: left;
     }
+}
 
-
+/*
+Media Query for Large
+Desktop Viewports */
+@media screen and (min-width: 1921px) {
+    #container {
+        width: 1920px;
+        margin: 0 auto;
+    }
 }
 
 /*
