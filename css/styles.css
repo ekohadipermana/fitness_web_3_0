@@ -266,6 +266,16 @@ footer p a {
         font-size: 1.8em;
     }
 
+    #weights, #cardio, #training {
+        width: 29%;
+        float: left;
+        margin: 0 2%;
+    }
+
+    #exercises {
+        clear: left;
+    }
+
 
 }
 
