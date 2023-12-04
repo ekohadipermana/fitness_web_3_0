@@ -262,6 +262,10 @@ footer p a {
         clear: left;
     }
 
+    main h1 {
+        font-size: 1.8em;
+    }
+
 
 }
 
