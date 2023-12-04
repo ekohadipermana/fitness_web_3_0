@@ -258,6 +258,11 @@ footer p a {
         padding: 0.5em 1em;
     }
 
+    nav li a:hover {
+        color: #000;
+        background-color: #fff;
+    }
+
     main {
         clear: left;
     }
