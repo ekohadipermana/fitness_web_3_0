@@ -258,6 +258,10 @@ footer p a {
         padding: 0.5em 1em;
     }
 
+    main {
+        clear: left;
+    }
+
 
 }
 
